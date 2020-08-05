@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-174310995-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174310995-1');
+</script>
+    <meta charset="UTF-8">
+    <title>FGC STREAM</title>
+    <script type="text/javascript"
+      src="//cdn.jsdelivr.net/afterglow/latest/afterglow.min.js"></script>
+    <link rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+    <link rel='stylesheet'
+      href='https://use.fontawesome.com/releases/v5.0.2/css/all.css'><link
+      rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+
+    <!-- partial:index.partial.html -->
+    <body class="container-fluid">
+      <!-- Twitch.tv App Chip -->
+      <div class="chip">
+
+        <!-- Logo Row -->
+        <div class="row row-top">
+          <img
+            src="https://www.twitch.tv/p/assets/uploads/combologo_474x356.png"
+            alt="Twitch.tv logo">
+
+        </div> <!-- end Logo Row -->
+
+        <!-- Search Input -->
+        <div class="row row-head">
+          <div class="input-group">
+            <input id="search" type="text" class="form-control textoresponsive">
+            <span class="input-group-addon">
+              <i class="fa fa-search"></i>
+
+            </span>
+
+          </div>
+        </div> <!-- end Search Input -->
+
+        <!-- Nav tabs -->
+        <div class="row row-head">
+          <ul class="nav nav-tabs" role="tablist" id="twitchTabs">
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#all"> <p>ALL</p> <p
+                  id="contador"></p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#online"> <p>ONLINE</p>
+                <p
+                  id="contadorONLINE"></p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#offline"><p>OFFLINE</p>
+                <p
+                  id="contadorOFFLINE"></p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#newupdates"><p
+                  class="newupdatesmargen">New
+                  updates</p>
+              </a>
+            </li>
+          </ul>
+          <div class="row row-entrante oculto">
+            <img
+              src="./AnimEVO_no_waifu.png"
+              alt="Twitch.tv logo">
+
+          </div>
+          <li class="nav-item solotabs oculto">
+
+            <a class="nav-link disabled" href=""> <p
+                class="centrarltemporizador" id="demo"> </p> </a>
+
+          </li>
+
+        </div> <!-- end Nav tabs -->
+
+
+        <!-- Tab panes -->
+        <div class="row row-body">
+          <div class="tab-content">
+
+            <!-- ALL Tab Pane - To be populated -->
+            <div id="all" class="container tab-pane fade">
+            </div> <!-- end ALL Tab Pane -->
+
+            <!-- ONLINE Tab Pane - To be populated -->
+            <div id="online" class="container tab-pane active">
+            </div> <!-- end ONLINE Tab Pane -->
+
+            <!-- OFFLINE Tab Pane - To be populated -->
+            <div id="offline" class="container tab-pane fade">
+            </div>
+            <div id="newupdates" class="container tab-pane fade">
+              <h5>Apartado donde indicaremos nuevas propuestas nuevos updates de
+                la web</h5>
+              <ol>
+                <li><p>Ordenacion de los nombres elementos</p></li>
+                <li><p>Aplicacion para movil</p></li>
+                <li><p>Crear form para guardar los usuarios en una BD</p></li>
+                <li><p>Migrar Proyecto</p></li>
+                <li> <p>Sugerencias Twitter</p></li>
+              </ol>
+
+
+              <div class="centrarelemento">
+                <h4 class="margenestitulo">Extension para Opera o Chrome</h4>
+                <video class="afterglow pruebavideonuevo videocentrado"
+                  id="myvideo"
+                  width="640" height="480">
+                  <source type="video/mp4" src="./tutorial.mp4" />
+                </video>
+              </div>
+              <div style="text-align:center;">
+                <a href="./FGCStreamEX.zip" target="_blank" download="Extension
+                  Opera">
+
+                  <p> <i class="fas fa-download"></i>Descargar Archivo</p>
+                </a>
+
+
+              </div>
+
+            </div>
+          </div> <!-- end OFFLINE Tab Pane -->
+
+        </div> <!-- end Tab panes -->
+        <!-- Logo Row -->
+
+      </div> <!-- end Twitch.tv App Chip -->
+
+
+    </body>
+    <footer>
+      <div class="chip">
+
+        <a class="row row-bot" href="https://twitter.com/BT_Kazukun">
+          <img src="./follow-me-on-twitter-png-11-transparent.png" alt="HTML
+            tutorial">
+        </a>
+
+      </div>
+
+      <p id=""></p>
+
+    </footer>
+    <!-- partial -->
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js'></script>
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script><script
+      src="./script.js"></script>
+
+  </body>
+</html>
