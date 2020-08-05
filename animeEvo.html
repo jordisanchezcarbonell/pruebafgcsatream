@@ -13,6 +13,9 @@
 </script>
     <meta charset="UTF-8">
     <title>FGC STREAM</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/theme2.css" />
     <link rel='stylesheet'
       href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
     <link rel='stylesheet'
@@ -59,17 +62,24 @@
 
             <li class="nav-item">
               <a class="nav-link tamañonavbarra" data-toggle="tab" href="#all"><p>ALL</p>
+                <p
+                  id="contador"></p>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link tamañonavbarra active" data-toggle="tab"
-                href="#online"><p>ONLINE</p></a>
+                href="#online"><p>ONLINE</p> <p
+                  id="contadorONLINE"></p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link tamañonavbarra" data-toggle="tab"
-                href="#offline"><p>OFFLINE</p></a>
+                href="#offline"><p>OFFLINE</p> <p
+                  id="contadorOFFLINE"></p></a>
             </li>
-            i>
+            <li class="nav-item">
+              <a class="nav-link tamañonavbarra" data-toggle="tab"
+                href="#Calendar"><p class="newupdatesmargen">Calendar</p></a>
+            </li>
 
 
           </ul>
@@ -89,8 +99,18 @@
 
             <!-- OFFLINE Tab Pane - To be populated -->
             <div id="offline" class="container tab-pane fade">
+
             </div>
 
+
+            <!-- Calendar Tab Pane - To be populated -->
+            <div id="Calendar" class="container tab-pane margenedelcalendario
+              fade">
+
+              <div class="prueba" id="caleandar">
+
+              </div>
+            </div>
 
           </div> <!-- end OFFLINE Tab Pane -->
 
@@ -100,6 +120,8 @@
       </div> <!-- end Twitch.tv App Chip -->
 
 
+      <script type="text/javascript" src="js/caleandar.js"></script>
+      <script type="text/javascript" src="js/demo.js"></script>
     </body>
     <footer>
       <div class="chip">

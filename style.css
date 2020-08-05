@@ -36,7 +36,7 @@ span {
 }
 
 .row-top>img {
-  margin: 0 auto;
+  margin: 3vw auto;
   height: 150px;
 }
 
@@ -290,6 +290,10 @@ input#search {
     margin: auto -5vw;
   }
 
+  .margenesaautodivEvo {
+    margin: 6vw -1vw;
+  }
+
   .fa-2x {
     font-size: 5em;
   }
@@ -298,6 +302,34 @@ input#search {
     margin: 6vw auto;
     height: 344px;
   }
+
+  .cld-datetime .today {
+    font-size: 3rem;
+  }
+
+  .tabla {
+    width: 100%;
+  }
+
+  .cld-label {
+    font-size: 2rem;
+  }
+
+  .cld-ttle {
+
+    font-size: 2rem;
+  }
+
+
+  .prueba {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: -3vw;
+    margin-bottom: 6vw;
+  }
+
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
