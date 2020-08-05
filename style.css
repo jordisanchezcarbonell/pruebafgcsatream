@@ -204,7 +204,7 @@ input#search {
 }
 
 .newupdatesmargen {
-  margin-bottom: 8.7vw;
+  margin-bottom: 1.7vw;
 
 }
 
@@ -292,6 +292,11 @@ input#search {
 
   .fa-2x {
     font-size: 5em;
+  }
+
+  .row-top>img {
+    margin: 6vw auto;
+    height: 344px;
   }
 }
 
