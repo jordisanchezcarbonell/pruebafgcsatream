@@ -181,7 +181,7 @@ input#search {
 }
 
 .solotabs {
-  margin: 2px auto;
+  margin: auto auto;
   padding-bottom: 30px;
   border-bottom: none;
 }
@@ -204,7 +204,7 @@ input#search {
 }
 
 .newupdatesmargen {
-  margin-bottom: 1.7vw;
+  margin-bottom: 8.7vw;
 
 }
 
@@ -236,7 +236,7 @@ input#search {
   }
 
   .newupdatesmargen {
-    margin-bottom: 3.7vw;
+    margin-bottom: 8.7vw;
   }
 
   .margenestitulo {
@@ -275,6 +275,23 @@ input#search {
     border-radius: 50%;
     border: 2px solid #6441a4;
     margin-top: 3px;
+  }
+
+  .tamañoiconobuscador {
+    font-size: 4vw;
+
+  }
+
+  .tamañonavbarra {
+    width: auto;
+  }
+
+  .margenesaautodiv {
+    margin: auto -5vw;
+  }
+
+  .fa-2x {
+    font-size: 5em;
   }
 }
 
